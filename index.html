@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>STUDENT DASHBOARD</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div id="login">
+            <h2>Student Login</h2>
+            <input type="text"
+            placeholder="Enter Name">
+
+            <input type="password"
+            placeholder="Enter Password">
+        
+            <button onclick="login()">Login</button>
+        </div>
+        <div id="dashboard">
+            <h1>Welcome student!</h1>
+
+            <div class="stats">
+                <div>
+                    <h3>Attendance</h3>
+                    <p>82%</p>
+                </div>
+                <div>
+                    <h3>CGPA</h3>
+                    <p>8.1</p>
+                </div>
+                <div>
+                    <h3>Pending Assignment</h3>
+                    <p>2</p>
+                </div>
+                <div>
+                    <h3>Upcoming Exam</h3>
+                    <p>Signal and systems</p>
+                </div>
+            </div>
+
+            <h2>Attendance Tracker</h2>
+            <p>Data communication-85%</p>
+            <p>Electronic circuits-78%</p>
+            <p>signals and system-80%</p>
+
+            <h2>Marks</h2>
+            <table>
+                <tr>
+                    <th>subject</th>
+                    <th>Midsem</th>
+                    <th>Endsem</th>
+                </tr>
+                <tr>
+                    <th>DC</th>
+                    <th>24</th>
+                    <th>65</th>
+                </tr>
+                <tr>
+                    <th>EC</th>
+                    <th>22</th>
+                    <th>68</th>
+                </tr>
+            </table>
+
+            <h2>Assignments</h2>
+            <ul>
+                <li>Network Assignment</li>
+                <li>EC Tutorial</li>
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
